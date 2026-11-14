@@ -489,7 +489,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Ft_Library"
+    ]
   },
   "meta": {
     "filename": "project_test.kicad_pro",
@@ -673,7 +675,7 @@
         "uuid": "10a8c3ca-6918-4fde-a7d9-51cc273d1fce"
       }
     ],
-    "used_designators": "J1-3,U1",
+    "used_designators": "C1-2,C4,GND1-3,J1-3,U1,VCC1-4,Y1",
     "variants": []
   },
   "sheets": [

@@ -1,0 +1,85 @@
+(footprint "FRC0603F1002TS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 21.844 -34.798 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a89d7c7a-5a11-4e7f-a256-dc63cfd0da91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FRC0603F1002TS 10kΩ ±1% 100mW 0603"
+		(at 21.59 -31.496 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf696940-f9eb-4ac1-9d46-10bed4c66e7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23737c8e-e58a-436d-ae25-513248647b84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "257f459b-d72f-4c2f-bb51-a1ed10a2c6a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 21.59 -29.718 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b39a56bb-b218-4af1-a806-fdd670520e36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1968503937)
+		(uuid "effc30ed-b1ff-4ae9-a742-abda06a41dc3")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1968503937)
+		(uuid "72101a3a-38d2-4b29-94ca-77a89b262c59")
+	)
+	(embedded_fonts no)
+)
